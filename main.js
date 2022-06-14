@@ -1,5 +1,5 @@
 /*
-Escribe un programa que almacene los objetos creados en el ejercio anterior del proyecto dentro de un array (un array por cada modelo de datos). A continuación, recorre cada uno de los arrays y muestra todas propiedades..
+Escribe un programa que realice la conversión a JSON del array (y viceversa) creado en el ejercicio anterior del proyecto.
 */
 
 const gestor1 = {
@@ -72,6 +72,15 @@ for (const cliente of clientes) {
     console.log(`saldo: ${cliente.saldo}`);
     console.log('-----');
 }
+
+console.log(gestores);
+
+const gestoresJSON = JSON.stringify(gestores);
+console.log(gestoresJSON);
+console.log(gestoresJSON.length);
+
+const cliente1JSON = JSON.stringify(cliente1);
+console.log(cliente1JSON);
 
 // todos los gestores
 // console.log(gestores);
