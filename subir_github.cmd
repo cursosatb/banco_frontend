@@ -1,4 +1,4 @@
 git add .
-git commit -m "Ejercicio 4.2"
+git commit -m "Creada la función obtenerGestores"
 git push origin master
 pause
